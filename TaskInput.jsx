@@ -14,7 +14,7 @@ function TaskInput({onAddTask}){
         <input
         type= "text"
         value={input}
-        placeholder='Enter a task'
+        placeholder='Enter a task...'
         onChange={(e)=> setInput(e.target.value)}
         style={styles.input}
         />
@@ -40,7 +40,3 @@ const styles = {
 }
 
 export default TaskInput;
-
-fetch('api/url')
-.then(response => console.log(response.json))
-.catch(error => console.log(error));

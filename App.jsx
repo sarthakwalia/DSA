@@ -18,3 +18,4 @@ function App(){
         </>
     );
 }
+tasks.filter((element,i) => i!==index)
